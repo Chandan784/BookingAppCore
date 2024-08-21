@@ -413,7 +413,127 @@ header{
     color: goldenrod;
 }
 
+/* footer  */
 
+section {
+    padding: 0vw 10vw;
+    width: 100vw;
+}
+
+section h3 {
+    font-size: 1.6rem;
+    padding: 1.2vw 0vw;
+}
+
+.signin {
+    border: 1px solid #e7e7e7;
+    border-radius: 2%;
+    display: flex;
+    padding: 2vw;
+    line-height: 1.6rem;
+}
+
+.signin h4 {
+    font-size: 1.2rem;
+}
+
+.signin .login a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #006ce4;
+}
+
+.signin .register a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #006ce4;
+    background-color: white;
+}
+
+section button {
+    border: none;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+section .rightsection {
+    padding-left: 30vw;
+}
+
+.findsection {
+        border: 1px solid #e7e7e7;
+        border-radius: 2%;
+        display: flex;
+        line-height: 1.6rem;
+        margin-top: 2vh;
+        /* width: 100vw; */
+}
+
+.halfcircle {
+    height: 62px;
+    width: 40px;
+    background-color:#ffb700;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 15%;
+}
+
+.findsection .content {
+    background-color:  #006ce4;
+    border-radius: 30% 30% 30% 30%;
+    width: 30vw;
+    padding: 3rem;
+    margin: 0vw 2vw 0vw 10vw;
+    color: white;
+    padding-left: 6rem;
+}
+
+.findsection .findimg {
+    padding: 0vw 8vw 0vw 5vw;
+    margin-top: 3vh;
+}
+
+.findsection .content .discover {
+    padding: 1rem;
+    width: 15vw;
+    color: #006ce4;
+    font-weight: 700;
+}
+
+.destination h3 {
+    margin-top: 4vw;
+}
+
+.destination .places ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.destination .places li button{
+    padding: 0.7rem;
+    border-radius: 40px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.destination .places li .active{
+    border: 1px solid #006ce4;
+    border-radius: 40px;
+    color: #006ce4;
+    background-color: rgba(0, 108, 228, 0.06);
+}
+
+.locationname {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locationname ul li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
 
 
 
