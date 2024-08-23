@@ -410,7 +410,30 @@ header{
     color: goldenrod;
 }
 
+/* explore ind by bijaya */
+.container{
+    display: grid;
+    grid-template-columns:repeat(9,185px);
+    overflow-x: hidden;
 
+    /* padding: 10px; */
+
+    
+}
+.container img{
+    /* padding: 10px; */
+    border-radius:7px;
+}
+
+.container h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.container p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 
 
 
