@@ -99,7 +99,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    margin: 200px 200px;
+    margin: 200px 190px;
     color: azure;
     
 }
@@ -345,9 +345,6 @@ header{
     width: 100%;
     border-radius: 10px;
     transition: all .2s linear 0s ;
-}
-#image1 img:hover{
-    transform: ;
 }
 .insp-text{
     position: absolute;
