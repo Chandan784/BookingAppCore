@@ -104,6 +104,7 @@ header{
     
 }
 
+<<<<<<< HEAD
 #info-1{
     font-size: 3rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -437,3 +438,83 @@ header{
 
 
 
+=======
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= propType -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.property-type{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: aqua; */
+  margin: auto;
+  width: 75%;
+  margin-top: 50px;
+}
+
+
+.property-list{
+  display: flex;
+  gap: 10px;
+
+}
+
+.property-list .image img{
+  border-radius: 8px;
+  height: 250px;
+  width: 278px;
+}
+
+.property-list .image p{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.inspiration-trip{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: aqua; */
+  margin: auto;
+  width: 75%;
+  margin-top: 50px;
+}
+
+.trip-list{
+  display: flex;
+  gap: 20px;
+}
+
+#trip1{
+  height: 400px;
+  width: 500px;
+  border-radius: 8px;
+}
+
+#trip2{
+  height: 250px;
+  border-radius: 8px;
+}
+
+#trip3{
+  height: 250px;
+  border-radius: 8px;
+}
+
+
+.image-trip1{
+  position: relative;
+}
+
+.caption{
+  position: absolute;
+  top: 78%;
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.image h3:hover{
+  color: orangered;
+}
+>>>>>>> origin/feature/sanjib/PproTtype
