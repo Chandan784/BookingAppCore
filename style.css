@@ -37,3 +37,20 @@
     height: 20px;
     width: 35px;
 }
+
+.lower-navbar{
+    width: 70%;
+    margin: auto;
+}
+
+.lower-navbar .lower-navbar-list{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.lower-navbar-list li a{
+    color: white;
+    text-decoration: none;
+}
+
