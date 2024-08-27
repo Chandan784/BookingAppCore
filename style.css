@@ -27,6 +27,12 @@
     color: white;
 }
 
+.upper-navbar .left-section h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
 .right-section-list{
     display: flex;
     gap: 20px;
@@ -44,21 +50,33 @@
 .upper-navbar .right-section-list a{
     text-decoration: none;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper-navbar .right-section-list a:hover{
+    padding: 10px 10px;
+    background-color: rgb(62, 94, 161);
+    border-radius: 10px;
 }
 .upper-navbar .right-section-list img{
     height: 20px;
     width: 35px;
+    
 }
 
 .right-section-list .right-section-button{
     display: flex;
     gap: 10px;
 }
+
 .right-section-list .right-section-button #register{
     padding: 12px 20px;
     border-radius: 5px;
     color: blue;
     border: hidden;
+}
+.right-section-list .right-section-button #register:hover{
+    background-color: rgb(213, 213, 250);
+
 }
 .right-section-list .right-section-button #sign-in{
     padding: 12px 20px;
@@ -66,7 +84,9 @@
     color: blue;
     border: hidden;
 }
-
+.right-section-list .right-section-button #sign-in:hover{
+    background-color: rgb(213, 213, 250);
+}
 
           /* LOWER NAVBAR */
 
@@ -89,6 +109,8 @@
     color: white;
     text-decoration: none;
     padding: 12px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
     
 }
 
