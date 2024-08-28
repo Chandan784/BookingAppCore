@@ -9,9 +9,7 @@
 .navbar{
     width: 100%;
     background-color: rgb(19, 61, 152);
-    
 }
-
 
                     /* UPPER NAVBAR */
 
@@ -45,6 +43,7 @@
     text-decoration: none;
     color: white;
 }
+
 .upper-navbar .right-section-list img{
     height: 20px;
     width: 35px;
