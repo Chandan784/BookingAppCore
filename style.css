@@ -4,105 +4,6 @@
     box-sizing: border-box;
 }
 
-/* =-=-=-=-=-=-=--==-=-=-==-=-=-==-==-=-=--- NAV BAR =-=-=-=-=-=-=-=-=-=-=-==-==-=-=-==-=-=--=--- */
-
-.navbar{
-    width: 100%;
-    background-color: rgb(19, 61, 152);
-}
-
-                    /* UPPER NAVBAR */
-
-.upper-navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 75%;
-    margin: auto;
-    padding: 15px;
-}
-.upper-navbar .left-section{
-    color: white;
-}
-
-.right-section-list{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.right-section-list #list-item{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.upper-navbar .right-section-list ul li{
-    list-style-type: none;
-}
-.upper-navbar .right-section-list a{
-    text-decoration: none;
-    color: white;
-}
-
-.upper-navbar .right-section-list img{
-    height: 20px;
-    width: 35px;
-}
-
-.right-section-list .right-section-button{
-    display: flex;
-    gap: 10px;
-}
-.right-section-list .right-section-button #register{
-    padding: 12px 20px;
-    border-radius: 5px;
-    color: blue;
-    border: hidden;
-}
-.right-section-list .right-section-button #sign-in{
-    padding: 12px 20px;
-    border-radius: 5px;
-    color: blue;
-    border: hidden;
-}
-
-
-          /* LOWER NAVBAR */
-
-.lower-navbar{
-    width: 75%;
-    margin-left: 165px;
-    padding: 15px;
-
-}
-
-.lower-navbar .lower-navbar-list{
-    display: flex;
-    list-style-type: none;
-    gap: 15px;
-    padding: 12px 20px;
-    /* background-color: red; */
-}
-
-.lower-navbar-list li a{
-    color: white;
-    text-decoration: none;
-    padding: 12px 20px;
-    
-}
-
-.lower-navbar .lower-navbar-list #stays{
-    padding: 12px 20px;
-    background-color: rgba(67, 97, 161, 0.616);
-    border: 1px solid white;
-    border-radius: 20px;
-}
-.lower-navbar-list li a:hover{
-    background-color: rgba(67, 97, 169, 0.616);
-    padding: 12px 20px;
-    border-radius: 20px;
-}
-
 
 /* =-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-HEADER SECTION=-=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-- */
 
@@ -143,7 +44,42 @@
 
 .header-search{
     display: flex;
+    background-color: orange;
+    
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
     
 }
+.header-search-location{
+    background-color: white;
+    padding: 12px 20px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 350px;
+    height: 55px;
+
+}
+.header-search-date{
+    background-color: white;
+    padding: 12px 20px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 300px;
+    height: 55px;
+
+
+}
+.header-search-people{
+    background-color: white;
+    padding: 12px 20px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 300px;
+    height: 55px;
+
+}
+
+
 
 
