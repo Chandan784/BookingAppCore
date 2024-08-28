@@ -9,9 +9,7 @@
 .navbar{
     width: 100%;
     background-color: rgb(19, 61, 152);
-    
 }
-
 
                     /* UPPER NAVBAR */
 
@@ -57,6 +55,7 @@
     background-color: rgb(62, 94, 161);
     border-radius: 10px;
 }
+
 .upper-navbar .right-section-list img{
     height: 20px;
     width: 35px;
