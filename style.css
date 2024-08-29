@@ -79,6 +79,15 @@
     height: 55px;
 
 }
+.header-search div input{
+    border: none;
+    /* padding: 8px; */
+    margin-left: 10px;
+    font-size: .9rem;
+    background-color: blue; 
+    max-width:350px ;
+       
+}
 
 
 
