@@ -35,7 +35,7 @@
 
 .header-text button{
     padding: 16px 10px;
-    background-color: #3771ef;
+    background-color: #006CE4;
     margin: 30px 0px;
     border-radius: 5px;
     border: hidden;
@@ -102,7 +102,7 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
     /* background-color: rgb(239, 134, 134);  */
-    min-width: 235px ;
+    min-width: 238px ;
     outline: none;
     transition: outline-color 0.3s;
 }
@@ -124,7 +124,7 @@
     margin-right: 5px;
     border: hidden;
     border-radius: 5px;
-    background-color: rgb(55, 90, 245);
+    background-color: #006CE4;
 }
 .header-search #header-search-button a{
     color: white;
@@ -132,14 +132,39 @@
     text-decoration: none;
 }
 
-.checkbox1{
-    padding-top: 45px;
-    padding-left: 180px;
+.checkbox{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    top: 28.5rem;
+    width: 75%;
+    left: 12.5rem;
+    align-items: center;
     
 }
- 
 
-label{
-    padding-left: 10px;
+.checkbox1{
+    display: flex;
+    align-items: center;
+    gap:10px;
 }
 
+.checkbox1 #checkbox1{
+    zoom: 1.6;
+}
+.checkbox1 label{
+    font-size: 1rem;
+}
+
+.checkbox2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox2 #checkbox2{
+    zoom: 1.6;
+}
+.checkbox2 label{
+    font-size: 1rem;
+}
