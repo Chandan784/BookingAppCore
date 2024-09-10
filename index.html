@@ -7,7 +7,9 @@
     <title>Booking App</title>
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,29 +22,43 @@
 
             </div>
             <div class="right-section">
-                <div class="right-section-list">
-                    <ul id="list-item">
-                        <li><a href="">INR</a></li>
-                        <li><a href=""><img src="./imagess/india_flag-removebg-preview.png" alt=""></a></li>
-                        <li><a href=""><i class="fa-regular fa-circle-question"></i></a></li>
-                        <li><a href="">List your property</a></li>  
+                <div class="right-section-list ">
+                    <ul id="list-item" >
+                        <li class="d-none"><a href="">INR</a></li>
+                        <li class="d-none"><a href=""><img src="./imagess/india_flag-removebg-preview.png" alt=""></a></li>
+                        <li class="d-none"><a href=""><i class="fa-regular fa-circle-question"></i></a></li>
+                        <li class="d-none"><a href="">List your property</a></li>
                     </ul>
-                    <div class="right-section-button">
-                        <button id="register" >Register</button>
+                    <div class="right-section-button d-none">
+                        <button id="register">Register</button>
                         <button id="sign-in">Login </button>
                     </div>
+                    <div class="menu-icon">
+                        <svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.2245 9.98267H1.75788C1.05832 9.98267 0.491211 10.8333 0.491211 11.8827V12.0827C0.491211 13.132 1.05832 13.9827 1.75788 13.9827H23.2245C23.9241 13.9827 24.4912 13.132 24.4912 12.0827V11.8827C24.4912 10.8333 23.9241 9.98267 23.2245 9.98267Z"
+                                fill="#FFFFFF" />
+                            <path
+                                d="M28.9079 18.9827H2.07454C1.20009 18.9827 0.491211 19.8333 0.491211 20.8827V21.0827C0.491211 22.132 1.20009 22.9827 2.07454 22.9827H28.9079C29.7823 22.9827 30.4912 22.132 30.4912 21.0827V20.8827C30.4912 19.8333 29.7823 18.9827 28.9079 18.9827Z"
+                                fill="#FFFFFF" />
+                            <path
+                                d="M28.9079 0.982666H2.07454C1.20009 0.982666 0.491211 1.83332 0.491211 2.88267V3.08267C0.491211 4.13201 1.20009 4.98267 2.07454 4.98267H28.9079C29.7823 4.98267 30.4912 4.13201 30.4912 3.08267V2.88267C30.4912 1.83332 29.7823 0.982666 28.9079 0.982666Z"
+                                fill="#FFFFFF" />
+                        </svg>
+                    </div>
                 </div>
+
             </div>
 
         </div>
         <div class="lower-navbar">
-            <ul class="lower-navbar-list">
-            <li ><a href="" id="stays"><span><i class="fa-solid fa-bed"></i></span>Stays</a></li>
-            <li><a href=""><span><i class="fa-solid fa-plane-departure"></i></span>Filghts</a></li>
-            <li><a href=""><i class="fa-solid fa-earth-americas"></i><span></span>Flight + Hotel</a></li>
-            <li><a href=""><span><i class="fa-solid fa-car"></i></span>Car rentals</a></li>
-            <li><a href="">Attractions</a></li>
-            <li><a href="">Airport taxis</a></li>
+            <ul class="lower-navbar-list scrollbar-none">
+                <li><a href="" id="stays"><span><i class="fa-solid fa-bed"></i></span>Stays</a></li>
+                <li><a href=""><span><i class="fa-solid fa-plane-departure"></i></span>Filghts</a></li>
+                <li><a href=""><i class="fa-solid fa-earth-americas"></i><span></span>Flight + Hotel</a></li>
+                <li><a href=""><span><i class="fa-solid fa-car"></i></span>Car rentals</a></li>
+                <li><a href="">Attractions</a></li>
+                <li><a href="">Airport taxis</a></li>
             </ul>
         </div>
     </div>
