@@ -9,6 +9,7 @@
 .navbar {
     width: 100%;
     background-color: rgb(19, 61, 152);
+    padding: 0rem 5rem;
 }
 
 /* UPPER NAVBAR */
@@ -145,6 +146,10 @@
     display: none !important;
 }
 
+.lower-navbar-list li a span i {
+    padding-right: 0.5rem;
+}
+
 @media (max-width:767.98px) {
     .menu-icon {
         display: block;
@@ -158,5 +163,13 @@
        
         padding: 12px 12px;
     
+    }
+
+    .navbar {
+        padding: 0rem;
+    }
+
+    .lower-navbar .lower-navbar-list {
+        justify-content: space-between;
     }
 }
