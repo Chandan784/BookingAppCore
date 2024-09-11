@@ -150,6 +150,18 @@
     padding-right: 0.5rem;
 }
 
+@media (max-width:1024px) {
+    .navbar {
+        padding: 0rem;
+    }
+}
+
+@media (max-width:600px) {
+    .small {
+        display: none;
+    }
+}
+
 @media (max-width:767.98px) {
     .menu-icon {
         display: block;
@@ -167,9 +179,5 @@
 
     .navbar {
         padding: 0rem;
-    }
-
-    .lower-navbar .lower-navbar-list {
-        justify-content: space-between;
     }
 }
