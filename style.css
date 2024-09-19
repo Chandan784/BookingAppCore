@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* =-=-=-=-=-=-=--==-=-=-==-=-=-==-==-=-=--- NAV BAR =-=-=-=-=-=-=-=-=-=-=-==-==-=-=-==-=-=--=--- */
@@ -9,7 +10,7 @@
 .navbar {
     width: 100%;
     background-color: rgb(19, 61, 152);
-    padding: 0rem 5rem;
+    padding: 0rem 7rem;
 }
 
 /* UPPER NAVBAR */
@@ -156,7 +157,7 @@
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:550px) {
     .small {
         display: none;
     }
@@ -165,6 +166,11 @@
 @media (max-width:767.98px) {
     .menu-icon {
         display: block;
+    }
+
+    .menu-icon {
+        font-size: 1.5rem;
+        padding-right: 0.5rem;
     }
 
     .d-none {
@@ -180,4 +186,138 @@
     .navbar {
         padding: 0rem;
     }
+}
+
+/* Header sec */
+
+.sectionHeader {
+    width: 100vw;
+    background-color: rgb(19, 61, 152);
+    color: white;
+    padding: 0rem 7rem;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+.container .left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 5rem;
+}
+
+.container .left p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+
+.container .left button {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(11, 133, 233);
+    border: none;
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container .right {
+    padding-right: 4rem;
+    padding-top: 2rem;
+}
+
+.external-header p {
+    font-size: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 0.5rem;
+    padding-left: 55vw;
+}
+
+.external-header h2 {
+    font-size: 2rem;
+}
+
+.table{
+    justify-content: space-between;
+}
+
+.table ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+
+.table ul li input {
+    border: none;
+    font-size: 1rem;
+    width: 22rem;
+}
+
+.table ul li {
+    border: 3px solid orange;
+    padding: 1rem;
+}
+
+.table ul li span {
+    padding-right: 5rem;
+}
+
+@media (max-width:1024px) {
+    .sectionHeader {
+        padding: 0rem;
+    }
+
+    .right img {
+        width: 30vw;
+    }
+}
+
+@media (max-width:767.98px) {
+    .container .left h1 {
+        padding-top: 1.5rem;
+    }
+
+    .right img {
+        width: 32vw;
+    }
+
+    .container .right {
+        padding-right: 0rem;
+    }
+
+    .container .external-header p {
+        padding-right: 0rem;
+    }        
+}
+
+@media (max-width:550px) {
+    .container .left h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .container .left p {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    .container .left button {
+        font-weight: 600;
+        border-radius: 5px;
+    }
+
+    .external-header p {
+        padding-left: 25vw;
+    }
+
+    
 }
