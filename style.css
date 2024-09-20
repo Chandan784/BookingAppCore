@@ -192,7 +192,7 @@
 /* Header sec */
 
 .sectionHeader {
-    width: 100vw;
+    /* width: 100vw; */
     background-color: rgb(19, 61, 152);
     color: white;
     padding: 0rem 7rem;
@@ -249,6 +249,7 @@
 .table{
     justify-content: space-between;
     padding: 0rem 7rem;
+    height: 10vh;
 }
 
 
@@ -304,14 +305,31 @@
     font-size:2rem;
 }
 
+.fix-width {
+    width: 30vw;
+}
+
+.table ul li span {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.checkbox {
+    padding: 0rem 7rem;
+}
 
 @media (max-width:1024px) {
-    .sectionHeader {
+    .sectionHeader{
         padding: 0rem;
+    }
+
+    .checkbox {
+        padding: 0rem 2rem;
     }
 
     .table ul li:nth-child(4) {
         padding-left: 42vw;
+        width: 93.5vw;
     }
 
     .right img {
@@ -321,6 +339,7 @@
     .table ul {
         display: block;
         width: 100%;
+        padding-left: 1rem;
     }
 
     .table {
@@ -334,6 +353,10 @@
     .table ul li {
         top: -200px;
         height: 60px;
+    }
+
+    .fix-width {
+        width: 93.5vw;
     }
 }
 
@@ -352,7 +375,15 @@
 
     .container .external-header p {
         padding-right: 0rem;
-    }        
+    }    
+
+    .fix-width {
+        width: 91vw;
+    }
+
+    .table ul li:nth-child(4) {
+        width: 91vw;
+    }
 }
 
 @media (max-width:550px) {
@@ -373,5 +404,13 @@
 
     .external-header p {
         padding-left: 25vw;
+    }
+
+    .fix-width {
+        width: 88vw;
+    }
+
+    .table ul li:nth-child(4) {
+        width: 88vw;
     }
 }
