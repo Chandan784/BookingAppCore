@@ -375,3 +375,132 @@
         padding-left: 25vw;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================FOOTER CSS ========================/ */
+
+
+.conatiner {
+    max-width: 1200px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #333;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.currency span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-bottom .currency img {
+    margin-right: 8px;
+}
+
+.flag-imag-footer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+
+
+    .footer-column ul li {
+        margin-bottom: 8px;
+    }
+
+    .footer-column ul li a {
+        font-size: 12px;
+    }
+
+    .footer-column h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-column ul li {
+        margin-bottom: 6px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+    .footer-bottom .currency img {
+        margin-bottom: 5px;
+    }
+}
