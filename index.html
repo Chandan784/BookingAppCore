@@ -7,59 +7,91 @@
     <title>Booking App</title>
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    
+    <div class="navbar">
+        <div class="upper-navbar">
+            <div class="left-section">
 
-    <!-- =-=-==-=-=-----=--=-=-=-=-=-=-=- //HEADER // =-=-=-=--=-=-=-=---=--=-=-=-=-=-=-=---=-=-=-=-=-=-=--=-=-->
-    
-    <header class="header">
-        <div class="header-image">
-            <img src="./imagess/divimage.jpeg" alt="">
+                <h2>Booking.com</h2>
 
-            <div class="header-text">
-                <h1>A place to call home</h1>
-                <h1>on your next adventure</h1>
-                <p>Experience the joy of an entire place to yourself</p>
-                <button><a href="">Book a holiday rental.</a></button>
+            </div>
+            <div class="right-section">
+                <div class="right-section-list ">
+                    <ul id="list-item" >
+                        <li class="d-none"><a href="">INR</a></li>
+                        <li class="d-none"><a href=""><img src="./imagess/india_flag-removebg-preview.png" alt=""></a></li>
+                        <li class="d-none"><a href=""><i class="fa-regular fa-circle-question"></i></a></li>
+                        <li class="menu-icon admin"><a href=""><i class="fa fa-circle-user"></i> </a></li>
+                        <li class="d-none"><a href="">List your property</a></li>
+                    </ul>
+                    <div class="right-section-button d-none">
+                        <button id="register">Register</button>
+                        <button id="sign-in">Login </button>
+                    </div>
+                    <div class="menu-icon">
+                        <svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.2245 9.98267H1.75788C1.05832 9.98267 0.491211 10.8333 0.491211 11.8827V12.0827C0.491211 13.132 1.05832 13.9827 1.75788 13.9827H23.2245C23.9241 13.9827 24.4912 13.132 24.4912 12.0827V11.8827C24.4912 10.8333 23.9241 9.98267 23.2245 9.98267Z"
+                                fill="#FFFFFF" />
+                            <path
+                                d="M28.9079 18.9827H2.07454C1.20009 18.9827 0.491211 19.8333 0.491211 20.8827V21.0827C0.491211 22.132 1.20009 22.9827 2.07454 22.9827H28.9079C29.7823 22.9827 30.4912 22.132 30.4912 21.0827V20.8827C30.4912 19.8333 29.7823 18.9827 28.9079 18.9827Z"
+                                fill="#FFFFFF" />
+                            <path
+                                d="M28.9079 0.982666H2.07454C1.20009 0.982666 0.491211 1.83332 0.491211 2.88267V3.08267C0.491211 4.13201 1.20009 4.98267 2.07454 4.98267H28.9079C29.7823 4.98267 30.4912 4.13201 30.4912 3.08267V2.88267C30.4912 1.83332 29.7823 0.982666 28.9079 0.982666Z"
+                                fill="#FFFFFF" />
+                        </svg>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="header-search">
-                
-                <div class="header-search-location">
-                    <i class="fa-solid fa-bed"></i>
-                    <input type="text" placeholder="where are you going?">
-                </div>
-
-                <div class="header-search-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <input type="text" placeholder="check-in-date-check-out-date">
-                </div>
-
-                <div class="header-search-people">
-                    <i class="fa-regular fa-user"></i>
-                    <input type="text" placeholder="2 adults. children. 1 room">
-                </div>
-                <button id="header-search-button"><a href="">search</a></button>
-            </div>
         </div>
-    </header>
-
-    <div class="checkbox">
-        <div class="checkbox1">
-            <input type="checkbox" name="checkbox1" id="checkbox1">
-            <label for="checkbox1">I'm looking for an entire home or an apartment</label>
+        <div class="lower-navbar">
+            <ul class="lower-navbar-list scrollbar-none">
+                <li><a href="" id="stays"><span><i class="fa-solid fa-bed"></i></span>Stays</a></li>
+                <li><a href=""><span><i class="fa-solid fa-plane-departure"></i></span>Filghts</a></li>
+                <li><a href=""></i><span><i class="fa-solid fa-earth-americas"></i></span>Flight + Hotel</a></li>
+                <li class="small"><a href=""><span><i class="fa-solid fa-car"></i></span>Car rentals</a></li>
+                <li class="d-none"><a href="">Attractions</a></li>
+                <li class="d-none morefun"><a href=""><span><i class="fas fa-plane icon-airport"></i>
+                </span>Airport taxis</a></li>
+                <li class="menu-icon"><a href="">More-</a></li>
+            </ul>
         </div>
-        <div class="checkbox2">
-            <input type="checkbox" name="checkbox2" id="checkbox2">
-            <label for="checkbox2">Show me flights for my travel dates</label>
-        </div>
-        
     </div>
-    
-</body>
+
+    <!-- Header Section -->
+     <section class="sectionHeader">
+        <div class="container d-flex">
+            <div class="left">
+                <h1>Sign in, save money</h1>
+                <p>Save 10% or more at participating properties – just look for the blue Genius label.</p>
+                <button>Sign in or register</button>
+            </div>
+            <div class="right">
+                <img src="./imagess/headerIMG.png" alt="">
+            </div>
+         </div>
+         <div class="d-flex external-header">
+            <p>Booking.com's loyalty program</p>
+            <h2>Genius</h2>
+        </div>
+     </section>
+
+     <div class="table">
+        <ul>
+            <li><i class="fa-solid fa-bed"></i><span>Where are you going?</span></li>
+            <li><i class="fas fa-calendar"></i><span>Check-in Date - Check-out Date</span></li>
+            <li><i class="fa fa-circle-user"></i><span>2 adult - 0 children - 1 room</span></li>
+            <li class="search-btn"><button>Search</button></li>
+        </ul>
+     </div>
+    </body>
 
 </html>
