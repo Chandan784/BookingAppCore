@@ -21,12 +21,13 @@
 
 .slide-container {
     border: 2px solid gray;
-    height: 10rem;
-    width: 40vw;
+    height: 12rem;
+    width: 45vw;
     display: flex;
     align-items: center;
     padding: 0rem 1rem;
     border-radius: 10px;
+    margin-right: 1rem;
 }
 
 .slide-container h3 {
@@ -36,7 +37,7 @@
 .slide-container button {
     color: white;
     background-color: #006ce4;
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin-top: 1rem;
     border: none;
     border-radius: 5px;
@@ -56,18 +57,45 @@
     background-color: blue;
 }
 
-.slide-offer-first{
-    border: 2px solid gray;
+.slide-offer-first {
     height: 12rem;
-    width: 40vw;
-    display: flex;
+    width: 45vw;
     align-items: center;
     padding: 0rem 1rem;
     border-radius: 10px;
     background-image: url(./imagess/offerdiv.jpeg);
     background-size: 40rem 12rem;
     background-repeat: no-repeat;
-    
     color: white;
-    
+    font-weight: 800;
+    padding-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.slide-offer-first h3{
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+}
+
+.slide-offer-first button {
+    color: white;
+    background-color: #006ce4;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.slide-offer-first button:hover {
+    background-color: blue;
+}
+
+.slide-offer-first p {
+    font-size: 1rem;
+}
+
+.d-flex-offer {
+    display: flex;
 }
