@@ -14,3 +14,44 @@
     padding: 0.5rem 0.5rem;
     font-size: 1.2rem;
 }
+
+.downside-header {
+    padding: 0rem 7rem;
+}
+
+.slide-container {
+    border: 2px solid gray;
+    height: 10rem;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+}
+
+.slide-container h3 {
+    padding-left: 0.5rem;
+}
+
+.slide-container button {
+    color: white;
+    background-color: #006ce4;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.slide-container p {
+    font-size: 1rem;
+}
+
+.slide-container h3 {
+    font-size: 1.3rem;
+}
+
+.slide-container button:hover {
+    background-color: blue;
+}
