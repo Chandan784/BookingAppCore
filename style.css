@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.offer-container h2 {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.offer-container p {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+}
