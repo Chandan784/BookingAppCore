@@ -55,3 +55,19 @@
 .slide-container button:hover {
     background-color: blue;
 }
+
+.slide-offer-first{
+    border: 2px solid gray;
+    height: 12rem;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+    background-image: url(./imagess/offerdiv.jpeg);
+    background-size: 40rem 12rem;
+    background-repeat: no-repeat;
+    
+    color: white;
+    
+}
