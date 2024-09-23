@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.trip-section{
+    padding: 1rem 7rem;
+}
+
+.trip-section .trip-planner h3{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
