@@ -9,7 +9,51 @@
 }
 
 .trip-section .trip-planner h3{
-
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
+}
+
+.trip-section .trip-planner p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.trip-section .trip-planner ul li {
+    list-style-type: none;
+    padding-right: 1.5rem;
+    margin: 0.5rem;
+    padding: 0.7rem 0.8rem;
+}
+
+.trip-section .trip-planner ul li i{
+    padding-right: 0.8rem;
+}
+
+.trip-section .trip-planner ul {
+    display: flex;
+    margin-top: 0.8rem;
+}
+
+.trip-planner ul .active {
+    border: 2px solid rgb(58, 58, 245);
+    border-radius: 10rem;
+    background-color: rgb(178, 178, 235);
+    color: blue;
+}
+
+.trip-planner ul .hover-effect:hover {
+    background-color: rgb(223, 216, 216);
+    border-radius: 10rem;
+}
+
+.trip-section .image-section-group {
+    display: flex;
+    margin-top: 1.5rem;
+    /* overflow-x: scroll; */
+}
+
+.trip-section .image-section-group img {
+    width: 150px;
+    border-radius: 0.6rem;
+    margin-right: 1rem;
 }
