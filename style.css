@@ -59,7 +59,7 @@
 
 .slide-offer-first {
     height: 12rem;
-    width: 45vw;
+    width: 55vw;
     align-items: center;
     padding: 0rem 1rem;
     border-radius: 10px;
@@ -100,6 +100,16 @@
 
 .d-flex-offer {
     display: flex;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.slide-left {
+    width: 45vw;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; 
 }
 
 .slide-offer-second{
@@ -111,6 +121,5 @@
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 700;
-   
 }
 
