@@ -55,7 +55,7 @@
 }
 
 .weekend-section .weekend-image .week-first-container .weekend-footer {
-    display: block;
+    display: inline-block;
     padding-left: 5rem;
 }
 
@@ -65,12 +65,23 @@
 
 .weekend-section .weekend-image .week-first-container {
     width: 250px;
-    /* box-shadow: 5px 5px rgb(211, 194, 194); */
-    /* background-color: #f0f0f0; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 1.5rem 0rem;
+    margin-right: 2rem;
 }
 
 .weekend-section .weekend-image {
-    /* display: flex; */
+    display: flex;
+    overflow-x: scroll;
+    stroke-width: none;
+}
+
+.weekend-section .weekend-image::-webkit-scrollbar {
+    display: none; 
+}
+
+@media  (max-width:1024px) {
+    .weekend-section {
+        padding: 0rem 1rem;
+    }
 }
