@@ -11,6 +11,7 @@
 .trip-section .trip-planner h3{
     font-size: 1.6rem;
     font-weight: 700;
+    padding-bottom: 0.5rem;
 }
 
 .trip-section .trip-planner p{
@@ -35,10 +36,10 @@
 }
 
 .trip-planner ul .active {
-    border: 2px solid rgb(58, 58, 245);
+    border: 2px solid #006ce4;
     border-radius: 10rem;
-    background-color: rgb(178, 178, 235);
-    color: blue;
+    background-color: rgb(158, 219, 243);
+    color: #006ce4;
 }
 
 .trip-planner ul .hover-effect:hover {
@@ -49,11 +50,33 @@
 .trip-section .image-section-group {
     display: flex;
     margin-top: 1.5rem;
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.trip-section .image-section-group::-webkit-scrollbar {
+    display: none;
 }
 
 .trip-section .image-section-group img {
-    width: 150px;
+    width: 200px;
     border-radius: 0.6rem;
     margin-right: 1rem;
 }
+
+@media (max-width:1024px) {
+    .trip-section{
+        padding: 1rem 0.2rem;
+    }
+
+    .trip-section .image-section-group img {
+        width: 160px;
+    }
+} 
+
+@media (max-width:734px) {
+    .trip-section .image-section-group img {
+        width: 200px;
+    }
+}
+
