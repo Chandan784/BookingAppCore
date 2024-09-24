@@ -1,116 +1,41 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+.BrowseProperty{
+    margin: 0 105px;    
 }
 
-.offer-container h2 {
-    padding: 0.5rem 0.5rem;
-    font-size: 1.7rem;
-    font-weight: 700;
+.BrowseProperty h2{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.offer-container p {
-    padding: 0.5rem 0.5rem;
-    font-size: 1.2rem;
-}
-
-.downside-header {
-    padding: 0rem 7rem;
-}
-
-.slide-container {
-    border: 2px solid gray;
-    height: 12rem;
-    width: 45vw;
+.BrowseProperty .Property{
+    height: 400px;
+    width: 100%;
     display: flex;
-    align-items: center;
-    padding: 0rem 1rem;
-    border-radius: 10px;
-    margin-right: 1rem;
+    gap: 15px;
+    overflow-x: auto;
 }
 
-.slide-container h3 {
-    padding-left: 0.5rem;
+.Property::-webkit-scrollbar{
+   display: none;
 }
 
-.slide-container button {
-    color: white;
-    background-color: #006ce4;
-    padding: 0.7rem;
-    margin-top: 1rem;
+.typeProperty{
     border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-.slide-container p {
-    font-size: 1rem;
-}
-
-.slide-container h3 {
-    font-size: 1.3rem;
-}
-
-.slide-container button:hover {
-    background-color: blue;
-}
-
-.slide-offer-first {
-    height: 12rem;
-    width: 45vw;
-    align-items: center;
-    padding: 0rem 1rem;
-    border-radius: 10px;
-    background-image: url(./imagess/offerdiv.jpeg);
-    background-size: 40rem 12rem;
-    background-repeat: no-repeat;
-    color: white;
-    font-weight: 800;
-    padding-top: 2rem;
-    line-height: 1.5rem;
-    margin-right: 1rem;
-}
-
-.slide-offer-first h3{
-    font-size: 1.3rem;
-    padding-left: 0.5rem;
-}
-
-.slide-offer-first button {
-    color: white;
-    background-color: #006ce4;
-    padding: 0.7rem;
-    margin-top: 1rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 700;
+    border-radius: 20px;
     
 }
-
-.slide-offer-first button:hover {
-    background-color: blue;
+.typeProperty img{
+    height: 280px;
+    width: 270px;
+    border-radius: 20px;
+}
+.typeProperty p{
+    padding-left: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.slide-offer-first p {
-    font-size: 1rem;
+@media (max-width:720px){
+    .BrowseProperty{
+        display: none;
+    }
 }
-
-.d-flex-offer {
-    display: flex;
-}
-
-.slide-offer-second{
-    color: white;
-    background-color: #006ce4;
-    padding: 0.7rem;
-    margin-top: 1rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 700;
-   
-}
-
