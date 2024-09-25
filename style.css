@@ -41,10 +41,18 @@
     transform: scale(1.1);
 } */
 
-.next-trip-medium {
-    width: 200rem;
-}
 
-.next-trip-medium h3,p{
-    width: 180rem;
+
+.next-trip-medium img{
+    margin: 2rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 7px;
+}
+.next-trip-main{
+    display: flex;
+   
+}
+.next-trip-medium{
+    width: 40vw;
 }
