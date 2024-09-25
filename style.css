@@ -7,14 +7,44 @@
 .next-trip-section{
     margin: 0.5rem 7rem;
 }
+
+/* .next-trip-main {
+    display: flex;
+    overflow-x: scroll;
+} */
+
 .next-trip-section h3{
     font-size: 1.5rem;
     font-weight: 700;
     padding: 0.8rem 0rem;
 }
 .next-trip-main .next-trip-large{
+    width: 50vw;
+    height: 70vh;
     background-image: url(./imagess/bigsize.jpg);
-    background-size: 40vh 40vw;
+    background-size: cover;
     background-repeat: no-repeat;
-    
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.next-trip-main .next-trip-large h3, p {
+    font-weight: 800;
+    color: rgb(228, 49, 49);
+}
+
+.next-trip-main .next-trip-large h3 {
+    padding-top: 20rem;
+}
+/* 
+.next-trip-main .next-trip-large:hover {
+    transform: scale(1.1);
+} */
+
+.next-trip-medium {
+    width: 200rem;
+}
+
+.next-trip-medium h3,p{
+    width: 180rem;
 }
