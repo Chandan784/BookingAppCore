@@ -103,3 +103,17 @@
     }
 }
 
+
+.next-trip-medium img{
+    margin: 2rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 7px;
+}
+.next-trip-main{
+    display: flex;
+   
+}
+.next-trip-medium{
+    width: 40vw;
+}
