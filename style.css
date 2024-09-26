@@ -30,7 +30,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
 }
 
 .next-trip-main .next-trip-large p {
@@ -54,12 +54,13 @@
 
 .medium-anothers {
     margin-right: 1.5rem;
+    width: 25vw;
 }
 
 .next-trip-medium img {
     border-radius: 7px;
     height: 15rem;
-    width: 22vw;
+    width: 25vw;
 }
 
 .next-trip-medium p {
@@ -78,42 +79,20 @@
 
 @media  screen and (max-width: 600px) {
     .next-trip-section{
-        margin: 0.5rem 1rem;
+        margin: 0.5rem 0rem;
         text-align: center;
     }
 
-    .next-trip-main {
-        display: block;
-        text-align: center;
-        overflow-x: hidden;
+    .medium-anothers {
+        margin-right: 1.5rem;
+        width: 40vw;
     }
 
-    .next-trip-main .next-trip-large {
-        margin-right: 1rem;
-        width: 100%;
-        margin-bottom: 1rem;
+    .medium-anothers img {
+        width: 40vw;
     }
-
-    .next-trip-medium {
-        display: block;
-    }
-
-    .next-trip-medium img {
-        width: 400px;
-    }
+    
 }
 
 
-.next-trip-medium img{
-    margin: 2rem;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 7px;
-}
-.next-trip-main{
-    display: flex;
-   
-}
-.next-trip-medium{
-    width: 40vw;
-}
+
