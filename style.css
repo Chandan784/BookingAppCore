@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.traver-more-section {
+    margin: 0.5rem 7rem;
+}
+
+.traver-more-section h3 {
+    font-size: 2rem;
+    margin: 0.5rem 0rem;
+}
+
+.traver-more-section .travel-more {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    padding: 0.7rem;
+    border-radius: 7px;
+}
+
+.travel-more .signin-left {
+    width: 80vw;
+}
+
+.travel-more .signin-left h3 {
+    font-size: 1.2rem;
+}
+
+.travel-more .signin-left p {
+    padding-bottom: 1rem;
+}
+
+.travel-more .signin-left button:nth-child(1) {
+    background-color: #006ce4;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    font-weight: 700;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.travel-more .signin-left button:nth-child(2) {
+    color: #006ce4;
+    padding: 0.5rem;
+    border: none;
+    font-weight: 700;
+    margin-right: 1rem;
+    background-color: white;
+}
+
+.travel-more .signin-left button:nth-child(2):hover {
+    background-color: #e1ecfa;
+    border-radius: 5px;
+}
+
+.travel-more .signin-right {
+    width: 20%;
+}
+
+.travel-more .signin-right img {
+    width: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .traver-more-section {
+        margin: 0.5rem 0.5rem;
+    }
+}
+
+
+
