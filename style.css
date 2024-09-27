@@ -71,28 +71,12 @@
     font-size: 1.3rem;
 }
 
-@media  screen and (max-width: 1024px) {
-    .next-trip-section{
-        margin: 0.5rem 2rem;
-    }
-}
+ 
 
-@media  screen and (max-width: 600px) {
-    .next-trip-section{
-        margin: 0.5rem 0rem;
-        text-align: center;
-    }
-
-    .medium-anothers {
-        margin-right: 1.5rem;
-        width: 40vw;
-    }
-
-    .medium-anothers img {
-        width: 40vw;
-    }
+@media (max-width:720px){
     
+    .next-trip-section{
+        display: none;
+    }
 }
-
-
 
