@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+     margin: 0.5rem 7rem;
+}
+.footer-list ul{
+    list-style-type: none;
+    margin: 2rem 0rem;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-list ul li{
+    padding: 0.5rem 0rem;
+}
+
+
+.footer-list ul li:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: 800;
+}
