@@ -20,7 +20,7 @@
 .weekend-section .weekend-image .week-first-container img {
     width: 250px;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .weekend-section .weekend-image .week-first-container button {
@@ -61,6 +61,16 @@
 
 .weekend-section .weekend-image .week-first-container .weekend-footer h3{
     display: inline;
+}
+
+.week-first-container .weekend-footer h3,.week-first-container .weekend-footer i{
+     
+    font-size: 12px;
+}
+
+.week-first-container .weekend-footer #original-price{
+
+    color: red;
 }
 
 .weekend-section .weekend-image .week-first-container {
