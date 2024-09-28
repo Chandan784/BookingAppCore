@@ -701,3 +701,97 @@ footer .flag {
     display: none;
   }
 }
+
+/* 
+weekend */
+
+weekend-section {
+  padding: 0rem 7rem;
+}
+
+.weekend-section .weekend-heading h3 {
+  font-size: 2rem;
+}
+
+.weekend-section .weekend-heading p {
+  font-size: 1.2rem;
+}
+
+.weekend-section .weekend-image .week-first-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.weekend-section .weekend-image .week-first-container button {
+  color: white;
+  background-color: rgb(41, 41, 231);
+  padding: 0.5rem;
+  border: none;
+  display: block;
+  margin: 0.6rem;
+}
+
+.weekend-section .weekend-image .week-first-container h3 {
+  width: 200px;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+.weekend-section .weekend-image .week-first-container p {
+  width: 200px;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.weekend-section .weekend-image .week-first-container input {
+  font-size: 1rem;
+  margin: 0.5rem;
+  color: white;
+  background-color: rgb(41, 41, 231);
+  border: none;
+  padding: 0.3rem;
+}
+
+.weekend-section .weekend-image .week-first-container .weekend-footer {
+  display: inline-block;
+  padding-left: 5rem;
+}
+
+.weekend-section .weekend-image .week-first-container .weekend-footer h3 {
+  display: inline;
+}
+
+.week-first-container .weekend-footer h3,
+.week-first-container .weekend-footer i {
+  font-size: 12px;
+}
+
+.week-first-container .weekend-footer #original-price {
+  color: red;
+}
+
+.weekend-section .weekend-image .week-first-container {
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 1.5rem 0rem;
+  margin-right: 2rem;
+  margin-right: 2rem;
+}
+
+.weekend-section .weekend-image {
+  display: flex;
+  overflow-x: scroll;
+  stroke-width: none;
+}
+
+.weekend-section .weekend-image::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .weekend-section {
+    padding: 0rem 1rem;
+  }
+}
