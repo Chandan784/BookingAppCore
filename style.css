@@ -599,7 +599,7 @@ footer .flag {
 /* trip planner section */
 
 .trip-section {
-  padding: 1rem 7rem;
+  padding: 2.5rem 0rem;
 }
 
 .trip-section .trip-planner h3 {
@@ -674,6 +674,8 @@ footer .flag {
   }
 }
 
+/* property */
+
 .BrowseProperty {
   margin: 0 105px;
 }
@@ -718,8 +720,8 @@ footer .flag {
 /* 
 weekend */
 
-weekend-section {
-  padding: 0rem 7rem;
+.weekend-section .week-first-container {
+    border-radius: 10px;
 }
 
 .weekend-section .weekend-heading h3 {
@@ -733,7 +735,7 @@ weekend-section {
 .weekend-section .weekend-image .week-first-container img {
   width: 250px;
   height: 250px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .weekend-section .weekend-image .week-first-container button {
@@ -809,7 +811,7 @@ weekend-section {
   }
 }
 
-raver-more-section {
+.traver-more-section {
   margin: 0.5rem 7rem;
 }
 
@@ -1010,7 +1012,14 @@ raver-more-section {
   .destination {
     margin: 0.5rem 0.5rem;
   }
+
 }
+
+@media screen and (max-width: 524px) {
+    .destination-place {
+        display: block;
+      }
+  }
 
 .next-trip-section {
   margin: 0.5rem 7rem;
