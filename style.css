@@ -482,7 +482,7 @@ footer .flag {
 
 .slide-container {
   border: 2px solid gray;
-  height: 12rem;
+  height: 14rem;
   width: 45vw;
   display: flex;
   align-items: center;
@@ -518,45 +518,6 @@ footer .flag {
   background-color: blue;
 }
 
-.slide-offer-first {
-  height: 12rem;
-  width: 55vw;
-  align-items: center;
-  padding: 0rem 1rem;
-  border-radius: 10px;
-  background-image: url(./imagess/offerdiv.jpeg);
-  background-size: 40rem 12rem;
-  background-repeat: no-repeat;
-  color: white;
-  font-weight: 800;
-  padding-top: 2rem;
-  line-height: 1.5rem;
-  margin-right: 1rem;
-}
-
-.slide-offer-first h3 {
-  font-size: 1.3rem;
-  padding-left: 0.5rem;
-}
-
-.slide-offer-first button {
-  color: white;
-  background-color: #006ce4;
-  padding: 0.7rem;
-  margin-top: 1rem;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.slide-offer-first button:hover {
-  background-color: blue;
-}
-
-.slide-offer-first p {
-  font-size: 1rem;
-}
 
 .d-flex-offer {
   display: flex;
@@ -594,6 +555,12 @@ footer .flag {
       display: block;
       /* text-align: center; */
     }
+
+    .slide-container {
+        width: 90vw;
+        padding: 0rem 1rem;
+        margin: 0vh 2vw;
+      }
   }
 
 /* trip planner section */
@@ -997,14 +964,17 @@ weekend */
 }
 
 .destination-last ul {
-  display: flex;
+  display:flex;
+  overflow: hidden;
+  justify-content: space-between;
+  line-height: 1.5rem;
 }
 
 .destination-last li {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
-.destination-last li:nth-child(1) {
+.first-destination-menu {
   list-style-type: none;
 }
 
@@ -1043,7 +1013,7 @@ weekend */
 .next-trip-main .next-trip-large {
   width: 50vw;
   height: 70vh;
-  background-image: url(./imagess/bigsize.jpg);
+  background-image: url(./imagess/nexttrip.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -1052,12 +1022,14 @@ weekend */
 
 .next-trip-main .next-trip-large p {
   font-weight: 800;
-  color: rgb(228, 49, 49);
+  color: #0057b8;
 }
 
 .next-trip-main .next-trip-large h3 {
-  padding-top: 20rem;
-  color: rgb(228, 49, 49);
+  padding-top: 18rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #0057b8;
 }
 /* 
 .next-trip-main .next-trip-large:hover {
@@ -1093,3 +1065,4 @@ weekend */
     display: none;
   }
 }
+
