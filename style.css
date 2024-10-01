@@ -477,7 +477,7 @@ footer .flag {
 }
 
 .downside-header {
-  padding: 0rem 7rem;
+  padding: 0.5rem 7rem;
 }
 
 .slide-container {
@@ -582,6 +582,19 @@ footer .flag {
   font-size: 1rem;
   font-weight: 700;
 }
+
+@media screen and (max-width: 1024px) {
+    .downside-header {
+        padding: 0.5rem 0.5rem;
+      }
+  }
+
+@media screen and (max-width: 738px) {
+    .d-flex-offer {
+      display: block;
+      /* text-align: center; */
+    }
+  }
 
 /* trip planner section */
 
