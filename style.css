@@ -309,7 +309,7 @@
 
 @media (max-width: 1024px) {
   .sectionHeader {
-    padding: 0rem;
+    padding: 0rem 0.5rem;
   }
 
   .checkbox {
@@ -643,10 +643,6 @@ footer .flag {
 
 /* property */
 
-.BrowseProperty {
-  /* margin: 0 10px; */
-}
-
 .BrowseProperty h2 {
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 25PX;
@@ -779,6 +775,8 @@ weekend */
   }
 }
 
+/* travel more */
+
 .traver-more-section {
   margin: 0.5rem 7rem;
 }
@@ -908,6 +906,8 @@ weekend */
   }
 }
 
+/* destination */
+
 .destination {
   margin: 0.5rem 7rem;
 }
@@ -992,6 +992,7 @@ weekend */
       }
   }
 
+  /* next trip */
 .next-trip-section {
   margin: 0.5rem 7rem;
 }
@@ -1005,8 +1006,8 @@ weekend */
   display: none; /* For Chrome, Safari, and Edge */
 }
 
-.next-trip-section h3 {
-  font-size: 1.5rem;
+.next-trip-section h2 {
+  font-size: rem;
   font-weight: 700;
   padding: 0.8rem 0rem;
 }
@@ -1032,10 +1033,6 @@ weekend */
   font-weight: 800;
   color: #0057b8;
 }
-/* 
-.next-trip-main .next-trip-large:hover {
-    transform: scale(1.1);
-} */
 
 .next-trip-medium {
   display: flex;
@@ -1067,3 +1064,131 @@ weekend */
   }
 }
 
+@media (max-width: 500px) {
+  .upper-navbar .left-section h2 {
+    font-size: 20px;
+  }
+
+  .container .left h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
+
+  .container .left p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+  }
+
+  .container .left button {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+
+  .table button {
+    font-size: 1rem;
+  }
+
+  .offer-container h2, .trip-section .trip-planner h3, .weekend-section .weekend-heading h3, .traver-more-section h3, .destination h3 {
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+  }
+  
+  .offer-container p, .trip-section .trip-planner p, .weekend-section .weekend-heading p {
+    font-size: 1.1rem;
+  }
+
+  .slide-container h3 {
+    font-size: 1.1rem
+  }
+
+  .slide-container p {
+    font-size: 0.8rem
+  }
+
+  .slide-container button {
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .weekend-section .weekend-image .week-first-container h3 {
+    font-size: 1rem;
+  }
+
+  .weekend-section .weekend-image .week-first-container p {
+    font-size: 0.8rem;
+  }
+
+  .next-trip-main {
+    display: block;
+  }
+
+  .next-trip-main .next-trip-large {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .next-trip-medium {
+    display: block;
+    width: 100%;
+  }
+
+  .medium-anothers {
+    margin-right: 0rem;
+    width: 95vw;
+  }
+
+  .next-trip-medium img {
+    border-radius: 7px;
+    height: auto;
+    width: 100vw;
+    margin-top: 1rem;
+  }
+
+  .next-trip-main .next-trip-large h3 {
+    padding-top: 10rem;
+    font-size: 1.4rem;
+  }
+
+  .next-trip-medium p {
+    font-size: 0.8rem;
+  }
+  
+  .next-trip-medium h3 {
+    font-size: 1.1rem;
+  }
+
+  .travel-more .signin-left h3 {
+    font-size: 1.1rem;
+  }
+  
+  .travel-more .signin-left p {
+    font-size: 0.9rem;
+  }
+  
+  .discoverhomes .discover-text {
+    margin: 0rem 0rem;
+    padding: 2rem 4rem;
+  }
+  
+  .discover-text button {
+    padding: 0.5rem 3rem;
+  }
+
+  .d-none-small {
+    display: none;
+  }
+
+  .destination-place .row-first li h4 {
+    font-size: 1.1rem;
+  }
+
+  .travel-more .signin-right img {
+    width: 4rem;
+  }
+
+}
